@@ -1,0 +1,70 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes 
+# paginate: 5
+# includes:
+#   - sections
+
+include: ['_pages']
+
+# Site settings
+title: Vadym Pasko
+description: "My personal website"
+baseurl: "/vp-site/"
+# url: "http://127.0.0.1:4000"
+url: "http://nomad-vagabond.github.io"
+avatar: images/alien_blue.png
+email: keenon3d@gmail.com
+copyright_name: Vadym Pasko
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "projects" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      permalink: "projects/"
+
+
+#Social media settings
+social:
+  # twitter: username
+  researchgate: https://www.researchgate.net/profile/Vadym_Pasko
+  github: https://github.com/nomad-vagabond
+  facebook: https://www.facebook.com/vadym.pasko
+  linkedin: https://www.linkedin.com/in/vadym-pasko/
+
+#Author settings
+author:
+  name: Vadym Pasko
+  title: Aerospace Engineer
+  title2: Software Developer
+
+# Outputting
+liquid:
+  error_mode: warn
+
+
+# sass:
+#   sass_dir: _sass
+#   style: compressed
+
+# Links
+
+CV: https://drive.google.com/open?id=0B5Ytdnqad01yaW9aeEd0MEgwdDA
+
+papers:
+  se: https://mfr.osf.io/render?url=https://osf.io/sjcaz/?action=download%26mode=render
+  clarkelib: https://osf.io/m7bp5/
+  asterion: https://osf.io/e7zfg/
+
+projects:
+  leosweep: https://leosweep.upm.es/en/
+  asterion-cya: https://2016.spaceappschallenge.org/challenges/solar-system/near-earth-objects-machine-learning/projects/asterion-cya

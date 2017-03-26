@@ -1,0 +1,56 @@
+<nav id="nav">
+  <!--
+
+    Prologue's nav expects links in one of two formats:
+
+    1. Hash link (scrolls to a different section within the page)
+
+       <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+    2. Standard link (sends the user to another page/site)
+
+       <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+  -->
+  <ul>
+    <li><a href="{{page.root}}#top" id="top-link" class="skel-layers-ignoreHref">
+    <span class="icon fa-home">Intro</span>
+    </a></li>
+
+    <li>
+      <!-- <a href="#projects" id="portfolio-link" class="skel-layers-ignoreHref"> -->
+      <a href="{{page.root}}#projects" id="projects-link" class="skel-layers-ignoreHref">
+        <span class="icon fa-rocket">Projects</span>
+      </a>
+     </li>
+
+    <li>
+      <a href="{{page.root}}#research" id="research-link" class="skel-layers-ignoreHref">
+        <span class="icon fa-flask">Research</span>
+        <!-- <span class="icon fa-paper-plane">Publications</span> -->
+      </a>
+    </li>
+
+    <li>
+      <a href="{{page.root}}#photo" id="profile-link" class="skel-layers-ignoreHref">
+        <span class="icon fa-user">Profile</span> 
+        <!-- <span class="icon fa-tasks">Profile</span>  -->
+        <!-- <span class="icon fa-address-card">Profile</span>  -->
+      </a>
+    </li>
+
+<!--     <li>
+      <a href="{{site.url}}{{site.baseurl}}#blog" id="blog-link" class="skel-layers-ignoreHref">
+        <span class="icon fa-book">Blog</span>
+      </a>
+    </li> -->
+
+    <li>
+      <a href="{{page.root}}#contact" id="contact-link" class="skel-layers-ignoreHref">
+        <!-- <span class="icon fa-envelope-o">Contact</span> -->
+        <span class="icon fa-paper-plane">Contact</span>
+      </a>
+    </li>
+
+  </ul>
+</nav>

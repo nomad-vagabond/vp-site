@@ -1,0 +1,54 @@
+---
+layout: default
+title: ClarkeLib
+permalink: /projects/ClarkeLib.html
+root: ../
+---
+
+<section>
+    <div class="container">
+
+        <header>
+            <h2>ClarkeLib</h2>
+        </header>
+
+        <p class="research-info">
+        ClarkeLib is an open-source library for <a href="http://www.sagemath.org/"> SageMath </a> that provides an object-oriented interface to the mathematical model of the Space Elevator. It is named after a great sci-fi writer Sir Arthur C. Clarke who has made a significant contribution to the popularization of the Space Elevator idea.
+        Space Elevator is essentially a long tether that stretches upwards from the Earth's surface far beyond the geostationary orbit (GEO). The tension in the tether is provided by two opposite forces - Earth gravity and centrifugal force, produced by the Earth rotation. Tether of minimal mass should have a variable cross section with its maximum at the altitude of GEO.
+        </p> 
+
+        <div class="image featured draft slim">
+            <img class="image centered" src="{{page.root}}/images/projects/se-general.png" alt="" />
+        </div>
+
+        <p class="research-info">
+        Main purpose of Clarkelib is to enable calculation of basic space elevator parameters for different types of tether tapering functions. The exponential tether tapering is the best choice for the ideal tether without point loads, but real Space Elevator will be dotted with climbers, transitional stations, service vehicles, etc. In this case other tapering laws may produce more even distribution of tension in tether. Figure below illustrates distribution of stress in two Earth Elevator tethers with different tapering laws. Both of them are loaded with 7 20-ton climbers.
+        </p>
+
+        <div class="image featured draft">
+            <img src="{{page.root}}/images/projects/clarkelib-stress.png" alt="" />
+        </div>
+
+        <p class="research-info">
+        With ClarkeLib one can easily calculate main parameters of the space elevator and estimate its mass using several input parameters: host planet (not only Earth Elevator can be constructed in theory), counterweight mass, anchor force, number an mass of climbers, etc. </p>
+
+        <p class="research-info">
+        On the figure below the dependencies of the Mars Elevator elements masses on the altitude of the counterweight are depicted. Calculations are made for the tether material similar to the carbon fiber <a href="http://www.toraycfa.com/pdfs/T1000GDataSheet.pdf"> T1000G </a> - one of the strongest construction fibers available on the market today.
+        </p>
+
+        <div class="image featured draft slim">
+            <img src="{{page.root}}/images/projects/mars-elevator-mass.png" alt="" />
+        </div>
+
+        <p class="research-info">
+        The work on ClarkeLib was initiated at  <a href="http://copernicus.exosphe.re/copernicus-i/"> Copernicus Space Science Laboratory </a> bootcamp that took place in July 2015 in Bercel, Hungary. The source code in open and can be accessed at 
+        <a href="https://github.com/nomad-vagabond/ClarkeLib">GitHub. </a>
+        </p>
+
+
+
+
+
+
+    </div>
+</section>

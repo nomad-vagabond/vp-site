@@ -1,0 +1,63 @@
+---
+layout: default
+root: 
+---
+
+<!-- ABOUT -->
+
+<section id="top" class="one dark cover">
+  <div class="container">
+    <header>
+      <!-- <h2 class="alt"> -->
+      <h3 class="alt">
+      I'm an aerospace engineer with a background in mechanical engineering, software development, scientific programming and data analysis 
+      </h3>
+
+      <p>
+      The list of my latest works contains: conceptual design of a landing mission to Europa (one of the Jupiter's icy moons) with application of a momentum exchange tether, prediction of orbital parameters for undiscovered potentially hazardous asteroids, alternative design solutions for the space elevator components and a few other.
+      </p>
+    </header>
+  </div>
+</section>
+
+{% include /sections/projects.html %}
+{% include /sections/research.html %}
+{% include /sections/profile.html %}
+
+<!-- CONTACT -->
+
+<!-- <hr class=six> -->
+<hr class="separator">
+
+<section id="contact" class="six">
+  <div class="container">
+
+    <header>
+      <h2 class="contact">Contact</h2>
+    </header>
+
+    <form method="post" action="http://formspree.io/{{site.email}}">
+      <div class="row">
+        <div class="6u 12u$(mobile)">
+          <textarea name="message" placeholder="Message"></textarea>
+        </div>
+        <div class="6u 12u$(mobile)">
+          <input type="text" name="name" placeholder="Name" />
+          <input type="text" name="email" placeholder="Email"/>
+          <input type="submit" value="Send Message"/>
+        </div>
+      </div>
+    </form>
+
+
+
+<!--     <form method="post" action="http://formspree.io/{{site.email}}">
+      <input type="email" name="_replyto">
+      <textarea  name="body"></textarea>
+      <input type="submit" value="Send">
+    </form> -->
+
+  </div>
+</section>
+
+

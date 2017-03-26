@@ -1,0 +1,50 @@
+<div id="header">
+
+  <div class="top">
+
+    <!-- Logo -->
+      <div id="logo">
+        <!-- <span class="image avatar48"><img src= {{ site.avatar }} /></span> -->
+        <h1 id="title"> {{ site.author.name }} </h1>
+        <!-- <h1 id="#long-shadow" class="long-shadow"> {{ site.author.name }} </h1> -->
+        <p> {{ site.author.title }} </p>
+        <p> {{ site.author.title2 }} </p>
+      </div>
+
+    <!-- Nav -->
+      {% include nav.html %}
+
+<!--       <div>
+      <span class="image avatar48"><img src= {{ site.avatar }} /></span>
+      </div> -->
+
+  </div>
+
+
+  <div class="bottom">
+
+    <!-- Social Icons -->
+      <ul class="icons">
+        {% if site.social.twitter %}
+          <li><a href="{{site.social.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        {% endif %}
+        {% if site.social.facebook %}
+          <li><a href="{{site.social.facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        {% endif %}
+        {% if site.social.github %}
+          <li><a href="{{site.social.github}}" class="icon fa-github"><span class="label">Github</span></a></li>
+        {% endif %}
+        {% if site.social.linkedin %}
+          <li><a href="{{site.social.linkedin}}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        {% endif %}
+        {% if site.social.researchgate %}
+          <li><a href="{{site.social.researchgate}}" class="icon2 ai-researchgate"><span class="label">ResearchGate</span></a></li>
+        {% endif %}
+        {% if site.email %}
+          <li><a href="mailto:{{site.email}}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        {% endif %}
+      </ul>
+
+  </div>
+
+</div>
