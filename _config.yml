@@ -13,7 +13,7 @@ title: Vadym Pasko
 description: "My personal website"
 baseurl: "/vp-site/"
 # url: "http://127.0.0.1:4000"
-url: "http://nomad-vagabond.github.io"
+url: "https://nomad-vagabond.github.io"
 avatar: images/alien_blue.png
 email: keenon3d@gmail.com
 copyright_name: Vadym Pasko
