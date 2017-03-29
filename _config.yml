@@ -12,11 +12,11 @@ include: ['_pages']
 title: Vadym Pasko
 description: "My personal website"
 
-# baseurl: "/vp-site/"
-# url: "https://nomad-vagabond.github.io"
+baseurl: "/vp-site/"
+url: "https://nomad-vagabond.github.io"
 
-baseurl: ""
-url: "http://127.0.0.1:4000"
+# baseurl: ""
+# url: "http://127.0.0.1:4000"
 
 avatar: images/alien_blue.png
 email: keenon3d@gmail.com
