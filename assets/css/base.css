@@ -56,7 +56,8 @@
 
 	body {
 		background: #fff;
-		font-family:'Hind', hind;
+		/*font-family:'Hind', hind;*/
+		font-family: 'Hind Madurai', ubuntu, helvetica;
 		font-size: 19pt;
 		/*font-size: 10pt;*/
 		font-weight: 300;
