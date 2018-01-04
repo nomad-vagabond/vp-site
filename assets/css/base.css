@@ -92,6 +92,7 @@
 		/*line-height: 0.5em;*/
 		/*font-size: 10pt;*/
 		color: #888;
+        
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -153,8 +154,6 @@
 		/*letter-spacing: -1px;*/
 		/*color: red;*/
 	}
-
-
 
 	header {
 		/*margin: 0 0 2em 0;*/
@@ -270,11 +269,6 @@
 }
 
 
-
-
-
-
-
 /* Sections/Article */
 
 	section, article {
@@ -342,14 +336,12 @@
 		/*color: #2b7ba4;*/
 		}
 
-
 	.research-info {
 		font-size: 0.9em;
 		text-align: justify;
 		line-height: 1.4em;
 		margin-bottom: 2em;
 	}
-
 
 	.profile.info {
 		/*color: red;*/
@@ -396,7 +388,6 @@
 		text-align: left;
 		/*margin-bottom: 3em;*/
 	}
-
 
 	.profile-item table {
 		width: 100%;
@@ -517,6 +508,94 @@
 	.narrowed {
 		margin-right: 25%;
 		margin-left: 25%;
+	}
+
+
+	.blogpost {
+		text-align: justify;
+	 	margin-bottom: 2em;
+        font-size: 0.9em;
+        line-height: 1.4em;
+        display: inline-block;
+        list-style-type: circle;
+        width: 100%;
+	}
+
+    .blogpost h1, h2, h3, h4, h5 {
+       margin-bottom: 1em; 
+        font-weight: 500;
+    }
+
+    .blogpost h1 {
+        font-size: 1.5em;
+    }
+
+    .blogpost h2 {
+        font-size: 1.25em;
+    }
+
+    .blogpost h3 {
+        font-size: 1.1em;
+    }
+
+    .blogpost h4 {
+        font-size: 1.0em;
+    }
+
+    .blogpost img {
+        width: 90%;
+        margin-left: 5%;
+        max-width: 800px;
+    }
+
+    .blogpost strong {
+        color: #214860;
+        font-weight: 600;
+    }
+
+    .blogpost em {
+        color: #214860;
+        font-weight: 400;
+    }
+
+    .blogpost code {
+        font-weight: 400;
+        font-size: 0.9em;
+        font-family: Source Code Pro;
+    }
+
+    .blogpost ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 1em;
+    }
+
+    .blogpost ol {
+        padding-left: 1em;
+    }
+
+	.blogpost-list {
+		text-align: left;
+	 	margin-bottom: 2em;
+        color: #888;
+        font-family: sans-serif;
+        font-size: 0.9em;
+        font-weight: 500;
+	}
+
+	.blogpost-list h2 {
+	 	margin-bottom: 0.8em;
+	 	letter-spacing: initial;
+	}
+
+	.blogpost-list a {
+		color: #2b7ba4;
+		color: #214860;
+	}
+
+	.blogpost-list a:hover {
+        color: #4eb4fa;
+        color: #2b7ba4;
 	}
 
 	#titleX {
@@ -1569,6 +1648,9 @@
 				/*color: black;*/
 /*				border: 5px;
 				border-color: rgba(0,0,0,1);*/
+                
+
+                
 			}
 
 			#main > section.three {
@@ -1577,6 +1659,11 @@
 				/*border-color: red;*/
 				/*padding-bottom: 100px;*/
 				/*margin-bottom: -2em;*/
+                
+                -moz-box-shadow:    0 -1px 6em  #cbced6;
+                -webkit-box-shadow: 0 -1px 6em  #cbced6;
+                box-shadow:         0 -1px 6em  #cbced6;
+                
 			}
 
 			#main > section.four {
@@ -1596,23 +1683,22 @@
 				/*background-color: #41484c;*/
 				/*background-color: #214860;*/
 				/*background-color: #b3e0ff;*/
-
 				/*background: #a6cae3;*/
 				/*background: #eaf0f4;*/
 				/*background-color: #bfd2e1;*/
 				/*background-color: #cfd9e1;*/
-				background-color: #dfe6ec;
-
-/*				
-				background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/overlay.png");
-				background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/overlay.png");
-				background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/overlay.png");
-				background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/overlay.png");
-	
-*/
+/*				background-color: #dfe6ec;*/
+                background-color: #e3e6ed;
 				/*margin-top: -2em;*/
 				/*background-color: #fff;*/
+                
+                -moz-box-shadow:    inset 0 3em 6em  -3em  #cbced6;
+                -webkit-box-shadow: inset 0 3em 6em  -3em  #cbced6;
+                box-shadow:         inset 0 3em 6em  -3em  #cbced6;
+                
+                
 			}
+
 
 			#main > section.six {
 				/*background-color: #020f1a;*/

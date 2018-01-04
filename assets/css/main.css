@@ -4,7 +4,11 @@
 /*@import url("containers.css");*/
 @import url("base.css");
 @import url("mobile.css");
-@import url("https://fonts.googleapis.com/css?family=Hind+Madurai:300,300italic,400,600");
+@import url("syntax.css");
+@import url("https://fonts.googleapis.com/css?family=Hind+Madurai:300,300italic,400,500,600");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,600");
+/*@import url("https://fonts.googleapis.com/css?family=Inconsolata:300,400,500,600");*/
+/*@import url("https://fonts.googleapis.com/css?family=PT+Mono:300,400,500,600");*/
 
 /*@import url("https://fonts.googleapis.com/css?family=Hind:300,300italic,400,400italic,600,600italic");*/
 /*@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");*/

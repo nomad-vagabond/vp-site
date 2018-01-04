@@ -118,7 +118,11 @@
 
 })(jQuery);
 
+(function() {
 
+    $("p:has(img)").css('text-align', 'center');
+    
+})();
 
 // jQuery(document).ready(function($) {
 
