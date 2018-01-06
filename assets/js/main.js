@@ -124,6 +124,40 @@
     
 })();
 
+
+
+$('.abstract-button').click(function() {
+	var p = $(this).next('p');
+	p.slideToggle("slow");
+	
+	if ($(this).attr("collapsed") == "true") {
+        $(this).children('i').removeClass("fa-caret-down");
+        $(this).children('i').addClass("fa-caret-up");
+		$(this).attr("collapsed", "false");
+        p.next('a').css("float", "none")
+	}
+	else {
+        $(this).children('i').removeClass("fa-caret-up");
+        $(this).children('i').addClass("fa-caret-down");
+		$(this).attr("collapsed", "true");
+        p.next('a').css("float", "right")
+	}
+});
+
+
+$(".abstract-button").each(function() {
+	var p = $(this).next('p');
+	p.slideToggle(0);
+    p.next('a').css("float", "right")
+	$(this).attr("collapsed", "true");
+});
+
+
+
+
+
+
+
 // jQuery(document).ready(function($) {
 
 //     $('.level-bar-inner').css('width', '0');

@@ -315,6 +315,46 @@
 		/*line-height: 0.9em;*/
 	}
 
+	.abstract-text {
+		height: auto;
+		overflow: hidden;
+	}
+
+    .abstract-label {
+        margin-right: 4px;
+        font-style: italic;
+        border: solid 0px; 
+        color: #2b7ba4;
+/*        font-weight: 500;*/
+        cursor: pointer;
+    }
+
+    .abstract-button {
+        cursor: pointer;
+        -webkit-user-select:none;
+        -khtml-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        -o-user-select:none;
+        user-select:none;
+    }
+
+    .abstract-button i {
+       color: #2b7ba4; 
+    }
+
+    .abstract-label:hover {
+        color: #4eb4fa;
+    }
+
+    .abstract-button i:hover {
+       color: #4eb4fa; 
+    }
+
+	.abstract a:hover {
+		color: #4eb4fa;
+    }
+
 	h3.year {
 		font-size: 1.0em;
 		color: #2b7ba4;
@@ -328,13 +368,6 @@
 		line-height: 1.8em;
 		color: #2b7ba4;
 	}
-
-	.abstract a:hover {
-		/*color: #214860;*/
-		/*color: #3a8db8;*/
-		color: #4eb4fa;
-		/*color: #2b7ba4;*/
-		}
 
 	.research-info {
 		font-size: 0.9em;
