@@ -5,8 +5,10 @@ plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
 includes_dir: _includes 
+#posts_dir: _posts
 
 include: ['_pages']
+exclude: ['_temp']
 
 # Site settings
 title: Vadym Pasko
@@ -15,8 +17,8 @@ description: "My personal website"
 baseurl: "/vp-site/"
 url: "https://nomad-vagabond.github.io"
 
-# baseurl: ""
-# url: "http://127.0.0.1:4000"
+#baseurl: "/"
+#url: "http://127.0.0.1:4000"
 
 avatar: images/alien_blue.png
 email: keenon3d@gmail.com
@@ -52,19 +54,24 @@ author:
 liquid:
   error_mode: warn
 
+highlighter: rouge
 
-# sass:
-#   sass_dir: _sass
-#   style: compressed
+#sass:
+#  sass_dir: _sass
+#  style: compressed
 
 # Links
 
 CV: https://drive.google.com/open?id=0B5Ytdnqad01yaW9aeEd0MEgwdDA
 
 papers:
+#  clarkelib: https://osf.io/m7bp5/
+#  asterion: https://osf.io/e7zfg/
   se: https://mfr.osf.io/render?url=https://osf.io/sjcaz/?action=download%26mode=render
-  clarkelib: https://osf.io/m7bp5/
-  asterion: https://osf.io/e7zfg/
+  clarkelib: https://mfr.osf.io/render?url=https://osf.io/ye9bw/?action=download%26mode=render
+  solarpumped: https://mfr.osf.io/render?url=https://osf.io/ju56g/?action=download%26mode=render
+  edem: https://mfr.osf.io/render?url=https://osf.io/btpsv/?action=download%26mode=render
+  asterion: https://mfr.osf.io/render?url=https://osf.io/e7zfg/?action=download%26mode=render
 
 projects:
   leosweep: https://leosweep.upm.es/en/
