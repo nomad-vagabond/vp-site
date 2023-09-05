@@ -374,6 +374,25 @@ SciPy provides ultimate tools for curve fitting with spline functions that in tr
 
 Still, application of parametric spline curves for data fitting faces challenge of necessity to find reversed function $$t = f(x)$$ to evaluate $$y$$ as a function of $$x$$. While this problem increases complexity of spline points evaluation, it has a solution, and I will describe how to find it with SciPy in the next article.
 
+### Curve Fitting with SplineCloud (update of Sep 2023)
+
+The problem of finding the best fit to arbitrary data points has kept my mind strained for quite some time and has resulted in my endeavor to develop a general-purpose online spline fitting tool, which evolved into a spline management, and later into a general open knowledge management platform known as [SplineCloud](https://splinecloud.com). 
+
+The SplineCloud interactive curve fitting tool allows to construct spline fit in one click. You can adjust the smoothing factor or select Least Squares or Interpolating splines. Manipulation of knot vectors and control points of splines is available in the Fine Tune mode. With this interactive curve fitting tool you can adjust the position of knots, add duplicate knots, move control points and change their weights. This approach of manual interaction have already proven to be helpful for data of complex shape.
+
+![Interactive Spline Fitting With SplineCloud ]({{site.url}}{{site.baseurl}}images/posts/SplineCloudFineTune.png)
+
+Most importantly, constructed curves can be pulled into your code by using SplineCloud client libraries for Python and MATLAB, and evaluated as regular functions!
+
+Check out my article [Online Curve Fitting with SplineCloud](https://splinecloud.com/features/curve-fitting/) for more details.
+
+### Plot Digitizing with SplineCloud (update of Sep 2023)
+
+The solution for this problem has also found its place at SplineCloud. If your data is represented as a graph you can extract data points from it and go straight to finding the best fit. What is remarkable about this approach, is that you can display the original plot in the background, which allows you to find a more accurate fit by comparing the shapes of the original and fitting curves.
+
+![Plot Digitizing With SplineCloud ]({{site.url}}{{site.baseurl}}images/posts/SplineCloudPlotDigitized.png)
+
+
 - - -
 
 ### Examples
